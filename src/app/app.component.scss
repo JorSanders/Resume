@@ -17,6 +17,10 @@
     position: relative;
 }
 
+ul {
+    padding-inline-start: 20px;
+}
+
 #contact-info {
     display: flex;
     flex-direction: row;
@@ -55,7 +59,7 @@ hr {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: -10px
+    margin-top: -10px;
 }
 
 .resume-heading {
@@ -63,9 +67,14 @@ hr {
     margin-bottom: 0px;
 }
 
-.resume-col {
-    width: 45%;
-    min-width: 405px;
+#resume-col-left {
+    width: 55%;
+    // min-width: 405px;
+}
+
+#resume-col-right {
+    width: 40%;
+    // min-width: 405px;
 }
 
 #resume-col-spacer {
@@ -84,7 +93,11 @@ h1 {
 }
 
 .primary-color {
-    color: red;
+    color: #d43333;
+}
+
+a {
+    color: #3160d6;
 }
 
 #header {
