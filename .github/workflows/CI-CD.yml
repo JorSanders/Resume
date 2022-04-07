@@ -31,3 +31,34 @@ jobs:
           push: true
           platforms: linux/amd64,linux/arm/v7
           tags: ghcr.io/jorsanders/resume:latest
+  production-deploy:
+    needs: [dockerize]
+    if: github.ref == 'refs/heads/main'
+    environment: production
+    runs-on: ubuntu-latest
+    name: Deploy to production server
+    steps:
+    -
+      name: Checkout code
+      uses: actions/checkout@v2
+    -
+      name: Deploy to production server and run
+      run: |
+        echo "===== Creating ~/.ssh directory"
+        mkdir -p ~/.ssh/
+        echo "$ENVIRONMENT_SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
+        echo "$ENVIRONMENT_SSH_KEY" > ~/.ssh/ec2_deploy.key
+        chmod 600 ~/.ssh/ec2_deploy.key
+        echo "===== Starting SSH Agent"
+        # shellcheck disable=SC2046
+        eval $(ssh-agent -s)
+        echo "===== Adding key to agent"
+        ssh-add ~/.ssh/ec2_deploy.key
+        echo "(Re-)starting Resume"
+        ssh "$ENVIRONMENT_USER@$ENVIRONMENT_HOST" 'cd /usr/local/applications/Rpi-setup && docker compose pull && docker compose up'
+      shell: bash
+      env:
+        ENVIRONMENT_HOST: ${{secrets.ENVIRONMENT_HOST}}
+        ENVIRONMENT_USER: ${{secrets.ENVIRONMENT_USER}}
+        ENVIRONMENT_SSH_KEY: ${{secrets.ENVIRONMENT_SSH_KEY}}
+        ENVIRONMENT_SSH_KNOWN_HOSTS: ${{secrets.ENVIRONMENT_SSH_KNOWN_HOSTS}}
