@@ -51,11 +51,11 @@ ul {
     margin-right: 3px;
 }
 
-hr {
+.resume-heading-hr {
     position: relative;
     border: none;
-    height: 6px;
-    background: black;
+    color: black;
+    border-top: solid 6px;
     margin-top: 0px;
 }
 
@@ -67,11 +67,6 @@ hr {
     margin-top: -10px;
 }
 
-.resume-heading {
-    color: black;
-    margin-bottom: 0px;
-}
-
 #resume-col-left {
     width: 55%;
     min-width: 390px;
@@ -81,6 +76,11 @@ hr {
 #resume-col-right {
     width: 40%;
     min-width: 300px;
+}
+
+.resume-heading {
+    color: black;
+    margin-bottom: 0px;
 }
 
 h1 {
@@ -112,7 +112,18 @@ a {
     align-content: flex-start;
 }
 
-@media print {
+@media only screen and (max-width: 770px) {
+    #resume-col-left {
+        margin-right: 0px;
+        width: auto;
+    }
+
+    #resume-col-right {
+        width: auto;
+    }
+}
+
+@media only print {
     .main-container {
         font-size: 11pt;
         padding-right: 0px;
@@ -127,19 +138,13 @@ a {
         height: 115px;
     }
 
-    hr {
-        color: black;
+    .resume-heading-hr {
         border-top: solid 3px;
     }
 
     #resume-col-left {
-        width: 55%;
-        min-width: 0px;
         margin-right: 10px;
     }
 
-    #resume-col-right {
-        width: 40%;
-        min-width: 0px;
-    }
+    #resume-col-right {}
 }
