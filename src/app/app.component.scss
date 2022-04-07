@@ -13,8 +13,13 @@
     margin-right: auto;
     margin-left: auto;
     font-family: Inter, sans-serif;
+    font-size: 14pt;
     color: #343a40;
     position: relative;
+}
+
+.primary-color {
+    color: #9c0b0b;
 }
 
 ul {
@@ -85,10 +90,6 @@ h1 {
 
 .subheading {
     margin-top: 0px;
-}
-
-.primary-color {
-    color: #ff0e0e;
 }
 
 a {
