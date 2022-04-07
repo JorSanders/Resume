@@ -115,11 +115,13 @@ a {
 @media only screen and (max-width: 770px) {
     #resume-col-left {
         margin-right: 0px;
-        width: auto;
+        width: 100%;
+        min-width: 0px;
     }
 
     #resume-col-right {
-        width: auto;
+        width: 100%;
+        min-width: 0px;
     }
 }
 
@@ -145,6 +147,4 @@ a {
     #resume-col-left {
         margin-right: 10px;
     }
-
-    #resume-col-right {}
 }
