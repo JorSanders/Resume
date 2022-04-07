@@ -69,18 +69,13 @@ hr {
 
 #resume-col-left {
     width: 55%;
-    // min-width: 405px;
+    min-width: 400px;
+    margin-right: 20px;
 }
 
 #resume-col-right {
     width: 40%;
-    // min-width: 405px;
-}
-
-#resume-col-spacer {
-    width: 0px;
-    margin-left: 10px;
-    margin-right: 10px;
+    min-width: 300px;
 }
 
 h1 {
@@ -93,7 +88,7 @@ h1 {
 }
 
 .primary-color {
-    color: #c95332;
+    color: #ff0e0e;
 }
 
 a {
@@ -116,8 +111,4 @@ a {
 
 #header-txt {
     align-content: flex-start;
-}
-
-.pic {
-    width: 100%;
 }
