@@ -6,3 +6,4 @@ RUN npm install && npm run build
 FROM nginx:1.21-alpine
 COPY nginx.conf /etc/nginx/nginx.conf
 COPY --from=build /usr/src/app/dist/resume /usr/share/nginx/html
+EXPOSE 8080
