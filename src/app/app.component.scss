@@ -4,7 +4,7 @@
     color: #343a40;
     padding-right: 8px;
     padding-left: 15px;
-    font-size: 14pt;
+    font-size: 13pt;
     font-family: Inter, sans-serif;
 }
 
@@ -31,7 +31,9 @@ ul {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
-    line-height: 130%;
+    line-height: 150%;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .contact-item {
@@ -45,6 +47,10 @@ ul {
     width: 0.8em;
     display: inline;
     margin-right: 3px;
+}
+
+.icon#location {
+    margin-right: -3px;
 }
 
 .resume-heading-hr {
@@ -86,6 +92,7 @@ h1 {
 
 .subheading {
     margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 a {
@@ -105,7 +112,9 @@ a {
 }
 
 #header-txt {
-    align-content: flex-start;
+    // align-content: flex-start;
+    display: flex;
+    flex-direction: column;
 }
 
 @media only screen and (max-width: 770px) {
@@ -121,15 +130,33 @@ a {
     }
 }
 
+@media not print {
+    .print-only {
+        display: none;
+    }
+}
+
 @media only print {
+    .print-hidden {
+        display: none;
+    }
+
     .main-container {
-        font-size: 11pt;
+        font-size: 10.5pt;
         padding-right: 0px;
         padding-left: 0px;
     }
 
     .container {
         max-width: 100%;
+    }
+
+    a:link,
+    a:visited,
+    a:hover,
+    a:active {
+        text-decoration: none;
+        color: #343a40;
     }
 
     #header-picture {
