@@ -121,15 +121,33 @@ a {
     }
 }
 
+@media not print {
+    .print-only {
+        display: none;
+    }
+}
+
 @media only print {
+    .print-hidden {
+        display: none;
+    }
+
     .main-container {
-        font-size: 11pt;
+        font-size: 10.5pt;
         padding-right: 0px;
         padding-left: 0px;
     }
 
     .container {
         max-width: 100%;
+    }
+
+    a:link,
+    a:visited,
+    a:hover,
+    a:active {
+        text-decoration: none;
+        color: #343a40;
     }
 
     #header-picture {
