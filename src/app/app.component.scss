@@ -107,8 +107,9 @@ a {
 
 #header-picture {
     display: inline-block;
-    width: 148.28px;
+    width: 143px;
     height: 143px;
+    border-radius: 50%;
 }
 
 #header-txt {
@@ -161,6 +162,7 @@ a {
 
     #header-picture {
         height: 115px;
+        width: 115px;
     }
 
     .resume-heading-hr {
