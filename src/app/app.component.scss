@@ -113,7 +113,6 @@ a {
 }
 
 #header-txt {
-    // align-content: flex-start;
     display: flex;
     flex-direction: column;
 }
@@ -171,5 +170,10 @@ a {
 
     #resume-col-left {
         margin-right: 10px;
+        min-width: 0px;
+    }
+
+    #resume-col-right {
+        min-width: 0px;
     }
 }
