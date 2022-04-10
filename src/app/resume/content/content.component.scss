@@ -1,0 +1,63 @@
+ul {
+    padding-inline-start: 20px;
+}
+
+.resume-heading-hr {
+    position: relative;
+    border: none;
+    color: black;
+    border-top: solid 6px;
+    margin-top: 0px;
+}
+
+#resume-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: -10px;
+}
+
+#resume-col-left {
+    width: 55%;
+    min-width: 390px;
+    margin-right: 20px;
+}
+
+#resume-col-right {
+    width: 40%;
+    min-width: 300px;
+}
+
+.resume-heading {
+    color: black;
+    margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 770px) {
+    #resume-col-left {
+        margin-right: 0px;
+        width: 100%;
+        min-width: 0px;
+    }
+
+    #resume-col-right {
+        width: 100%;
+        min-width: 0px;
+    }
+}
+
+@media only print {
+    .resume-heading-hr {
+        border-top: solid 3px;
+    }
+
+    #resume-col-left {
+        margin-right: 10px;
+        min-width: 0px;
+    }
+
+    #resume-col-right {
+        min-width: 0px;
+    }
+}

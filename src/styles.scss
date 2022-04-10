@@ -1,1 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
+html {
+    font-size: 13pt;
+    font-family: Inter, sans-serif;
+    color: #343a40;
+}
+
+.primary-color {
+    color: #ff0e0e;
+}
+
+a {
+    color: #3160d6;
+}
+
+@media not print {
+    .print-only {
+        display: none;
+    }
+}
+
+@media only print {
+    .print-hidden {
+        display: none;
+    }
+
+    a:link,
+    a:visited,
+    a:hover,
+    a:active {
+        text-decoration: none;
+        color: #343a40;
+    }
+}

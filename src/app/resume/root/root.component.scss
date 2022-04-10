@@ -1,0 +1,49 @@
+.main-container {
+    box-sizing: border-box;
+    display: block;
+    padding-right: 8px;
+    padding-left: 15px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+
+
+@media only print {
+    .main-container {
+        font-size: 10.5pt;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+
+
+    #header-picture {
+        height: 115px;
+        width: 115px;
+    }
+
+    .resume-heading-hr {
+        border-top: solid 3px;
+    }
+
+    #resume-col-left {
+        margin-right: 10px;
+        min-width: 0px;
+    }
+
+    #resume-col-right {
+        min-width: 0px;
+    }
+}
