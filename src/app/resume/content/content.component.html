@@ -1,59 +1,43 @@
 <div id="resume-content">
     <div id="resume-col-left">
         <section class="resume-item">
-            <h2 class="resume-heading">Personal Summary</h2>
+            <h2 class="resume-heading" [innerHTML]="'resume.content.personal_summary.heading' | translate"></h2>
             <hr class="resume-heading-hr" />
-            <p>I am a 25 year old software developer.
-                Besides my main specialization in back-end web development I enjoy working on a wide range of subjects.
-                I take pride in being able to explain complex technical concepts in layman's terms.
-                Because of this I have often been asked by colleagues to collaborate with them on a variety of items
-                (e.g. front-end, CI/CD automation, database administration, Linux server management and
-                incident response).
-                In this way I see myself as a real <b class="primary-color">team player</b>,
-                who is always ready to help others out.
-            </p>
+            <p [innerHTML]="'resume.content.personal_summary.text' | translate"> </p>
         </section>
 
         <section class="resume-item">
-            <h2 class="resume-heading">Experience</h2>
+            <h2 class="resume-heading" [innerHTML]="'resume.content.experience.heading' | translate"></h2>
             <hr class="resume-heading-hr" />
             <ul>
-                <li><b>Back-end developer | Capgemini</b> (11/2019 - 5/2022).<br />
-                    I worked on <b class="primary-color">DigiD</b> for <b>Logius</b>,
-                    which is one of Capgemini's customers.
-                    Here I worked on a variety of items like containerizing, splitting the monolith application into
-                    microservices, and connecting to eIDAS (European electronic identification).
-                    The thing I am most proud of is unofficially becoming the first point of contact for the Ops teams
-                    when they needed help or cooperation from the development teams.
+                <li>
+                    <span [innerHTML]="'resume.content.experience.li.capgemini.heading' | translate"></span>
+                    <br />
+                    <span [innerHTML]="'resume.content.experience.li.capgemini.text' | translate"></span>
                 </li>
-                <li><b>Back-end developer | Perfect Web Team</b> (2/2017 - 8/2019).<br />
-                    During my studies I worked as a part-time web and back-end developer.
-                    The work mostly consisted of making custom Joomla! components using OOP PHP, Git and MySQL.
-                    As my graduation-internship I set up a CI/CD environment for PWT.
+                <li>
+                    <span [innerHTML]="'resume.content.experience.li.pwt.heading' | translate"></span><br />
+                    <span [innerHTML]="'resume.content.experience.li.pwt.text' | translate"></span>
                 </li>
-                <li><b>Back-end internship | The Valley</b> (9/2018 - 1/2019).<br />
-                    During this internship I worked in a Scrum team, together we redesigned and rebuilt the website <a
-                        href="https://www.fcutrecht.nl/" target="_blank" rel="noopener noreferrer">fcutrecht.nl</a>.
+                <li>
+                    <span [innerHTML]="'resume.content.experience.li.the_valley.heading' | translate"></span><br />
+                    <span [innerHTML]="'resume.content.experience.li.the_valley.text' | translate"></span>
                 </li>
-                <li><b>Back-end internship | Cinnovate</b> (9/2017 - 1/2018).<br />
-                    In a team of interns we built a C# Library for <a href="https://www.pozyx.io/" target="_blank"
-                        rel="noopener noreferrer">Pozyx</a>.
-                    Pozyx is hardware used for indoor location tracking.
-                    Cinnovate used this indoor location tracking their projects, mainly a self-driving-wheelchair.
+                <li>
+                    <span [innerHTML]="'resume.content.experience.li.cinnovate.heading' | translate"></span>
+                    <br />
+                    <span [innerHTML]="'resume.content.experience.li.cinnovate.text' | translate"></span>
                 </li>
             </ul>
         </section>
 
         <section class="resume-item">
-            <h2 class="resume-heading">Education</h2>
+            <h2 class="resume-heading" [innerHTML]="'resume.content.education.heading' | translate"></h2>
             <hr class="resume-heading-hr" />
-            <p><b lang="nl-NL">HBO-ICT | Windesheim Flevoland</b> (8/2015 - 6/2019).<br />
-                During the 1st year of the bachelors we learned a basis of IT skills.
-                From the 2nd year onwards we got to apply that knowledge at internships.
-                I have done <b class="primary-color">5 internships</b> of each half a year.
-                Which gave me a lot of experience working with different technologies, companies and people.
-                My minor as part of this bachelors I chose to do abroad, studying for half a year at Wenzhou University
-                in China.
+            <p>
+                <span [innerHTML]="'resume.content.education.windesheim.heading' | translate"></span>
+                <br />
+                <span [innerHTML]="'resume.content.education.windesheim.text' | translate"></span>
             </p>
         </section>
 
@@ -61,50 +45,40 @@
 
     <div id="resume-col-right">
         <section class="resume-item">
-            <h2 class="resume-heading">Skills</h2>
+            <h2 class="resume-heading" [innerHTML]="'resume.content.skills.heading' | translate"></h2>
             <hr class="resume-heading-hr" />
             <ul>
-                <li><b>Java, Spring Boot</b> Developed enterprise
-                    applications</li>
-                <li><b>C#, .NET Core, Umbraco</b> Developed enterprise applications</li>
-                <li><b>Ruby, Rails</b> Developed enterprise applications</li>
-                <li><b>PHP, Laravel, Joomla!</b> Developed enterprise applications</li>
-                <li><b>Javascript, TypeScript, Angular, Stencil, jQuery</b> Collaborated with colleagues and
-                    some hobby projects</li>
-                <li><b>Python, Bash, Go</b> Used for scripting</li>
-                <li><b>C, C++</b> Basic knowledge</li>
-                <li><b>Gitlab CI/CD, Jenkins, Github workflows</b> Setup and further development of pipelines
-                </li>
-                <li><b>MySQL, MSSQL</b> Used in enterprise applications</li>
-                <li><b>Docker, Docker-compose, Docker Swarm</b> Dockerized applications and hosted them in swarm or
-                    compose stacks</li>
-                <li><b>Agile, Scrum, SAFe</b> worked in professional Agile teams</li>
-                <li><b>UML</b> Able to create and read UML models</li>
-                <li><b>ELK</b> Basic understanding how ELK works and creating dashboards in Kibana</li>
+                <li [innerHTML]="'resume.content.skills.li.java' | translate"></li>
+                <li [innerHTML]="'resume.content.skills.li.csharp' | translate"></li>
+                <li [innerHTML]="'resume.content.skills.li.ruby' | translate"></li>
+                <li [innerHTML]="'resume.content.skills.li.php' | translate"></li>
+                <li [innerHTML]="'resume.content.skills.li.javascript' | translate"></li>
+                <li [innerHTML]="'resume.content.skills.li.scripting' | translate"></li>
+                <li [innerHTML]="'resume.content.skills.li.c' | translate"></li>
+                <li [innerHTML]="'resume.content.skills.li.cicd' | translate"></li>
+                <li [innerHTML]="'resume.content.skills.li.sql' | translate"></li>
+                <li [innerHTML]="'resume.content.skills.li.docker' | translate"></li>
+                <li [innerHTML]="'resume.content.skills.li.agile' | translate"></li>
+                <li [innerHTML]="'resume.content.skills.li.uml' | translate"></li>
+                <li [innerHTML]="'resume.content.skills.li.elk' | translate"></li>
             </ul>
         </section>
 
         <section class="resume-item">
-            <h2 class="resume-heading">Languages</h2>
+            <h2 class="resume-heading" [innerHTML]="'resume.content.languages.heading' | translate"></h2>
             <hr class="resume-heading-hr" />
             <ul>
-                <li><b>Dutch:</b> native</li>
-                <li><b>English:</b> fluent</li>
-                <li><b>Chinese (<span lang="zh-Hans">中文</span>):</b> basic conversations</li>
+                <li [innerHTML]="'resume.content.languages.li.dutch' | translate"></li>
+                <li [innerHTML]="'resume.content.languages.li.english' | translate"></li>
+                <li [innerHTML]="'resume.content.languages.li.chinese' | translate"></li>
             </ul>
         </section>
 
         <section class="resume-item">
-            <h2 class="resume-heading">Interests</h2>
+            <h2 class="resume-heading" [innerHTML]="'resume.content.interests.heading' | translate"></h2>
             <hr class="resume-heading-hr" />
-            <p>After a day of work I enjoy hanging out on Discord and playing team-based games like Overwatch, Apex
-                Legends or
-                League of Legends.
-                During weekends I enjoy having board game nights or going out for a drink with friends.</p>
-            <p>I am constantly looking to <b class="primary-color">learn new things</b>.
-                During my free time I often browse Reddit, Youtube or listen to podcasts to learn more about things like
-                Kubernetes, Front-end development and pentesting.
-            </p>
+            <p [innerHTML]="'resume.content.interests.content.free_time' | translate"></p>
+            <p [innerHTML]="'resume.content.interests.content.learning' | translate"></p>
         </section>
     </div>
 </div>

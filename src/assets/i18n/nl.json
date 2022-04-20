@@ -1,0 +1,101 @@
+{
+	"resume": {
+		"content": {
+			"education": {
+				"heading": "Opleiding",
+				"windesheim": {
+					"heading": "<b>HBO-ICT | Windesheim Flevoland</b> (8/2015 - 6/2019).",
+					"text": "Tijdens het eerste jaar van de bachelor hebben we een basis set van IT skills geleerd. Vanaf het tweede jaar konden we die kennis in de praktijk toepassen in stages. In totaal heb ik <b class=\"primary-color\">5 stages</b> gedaan van elk een half jaar. Dit heeft mij veel ervaring gegeven in het werken met verschillende technologien, bedrijven en mensen. Ik heb er voor gekozen om mijn minor in het buitenland te doen, bij <span lang='en-US'>Wenzhou University</span> in China."
+				}
+			},
+			"experience": {
+				"heading": "Ervaring",
+				"li": {
+					"capgemini": {
+						"heading": "<b>Back-end ontwikkelaar | Capgemini</b> (11/2019 - 5/2022).",
+						"text": "Gewerkt aan <b class=\"primary-color\">DigiD</b> voor <b>Logius</b>, een van de klanten van Capgemini. Hier heb ik aan een verscheidenheid aan items gewerkt zoals containerisatie, opsplitsen van de monolieth in microservices, en verbinden met to eIDAS (Europese electronische identificatie). Het gene waar ik het meest trost op ben is dat ik unofficieel het eerste aanspreek punt ben geworden voor de <span lang='en-US'>Ops</span> teams wanneer er ondersteuning of samerwerking nodig was van de ontwikkel teams."
+					},
+					"cinnovate": {
+						"heading": "<b>Back-end internship | Cinnovate</b> (9/2017 - 1/2018).",
+						"text": "In a team of interns we built a C# Library for <a href=\"https://www.pozyx.io/\" target=\"_blank\" rel=\"noopener noreferrer\">Pozyx</a>. Pozyx is hardware used for indoor location tracking. Cinnovate used this indoor location tracking their projects, mainly a self-driving-wheelchair."
+					},
+					"pwt": {
+						"heading": "<b>Back-end ontwikkelaar | Perfect Web Team</b> (2/2017 - 8/2019).",
+						"text": "During my studies I worked as a part-time web and back-end developer. The work mostly consisted of making custom Joomla! components using OOP PHP, Git and MySQL. As my graduation-internship I set up a CI/CD environment for PWT."
+					},
+					"the_valley": {
+						"heading": "<b>Back-end internship | The Valley</b> (9/2018 - 1/2019).",
+						"text": "During this internship I worked in a Scrum team, together we redesigned and rebuilt the website <a href=\"https://www.fcutrecht.nl/\" target=\"_blank\"rel=\"noopener noreferrer\">fcutrecht.nl</a>."
+					}
+				}
+			},
+			"interests": {
+				"content": {
+					"free_time": "After a day of work I enjoy hanging out on Discord and playing team-based games like Overwatch, Apex Legends or League of Legends. During weekends I enjoy having board game nights or going out for a drink with friends.",
+					"learning": "I am constantly looking to <b class=\"primary-color\">learn new things</b>. During my free time I often browse Reddit, Youtube or listen to podcasts to learn more about things like Kubernetes, Front-end development and pentesting."
+				},
+				"heading": "Interesses"
+			},
+			"languages": {
+				"heading": "Talen",
+				"li": {
+					"chinese": "<b>Chinese (<span lang=\"zh-Hans\">中文</span>):</b> basic conversations",
+					"dutch": "<b>Dutch:</b> native",
+					"english": "<b>English:</b> fluent"
+				}
+			},
+			"personal_summary": {
+				"heading": "Profiel",
+				"text": "I am a 25 year old software developer. Besides my main specialization in back-end web development I enjoy working on a wide range of subjects. I take pride in being able to explain complex technical concepts in layman's terms. Because of this I have often been asked by colleagues to collaborate with them on a variety of items (e.g. front-end, CI/CD automation, database administration, Linux server management and ncident response). In this way I see myself as a real <b class=\"primary-color\">team player</b>, who is always ready to help others out."
+			},
+			"skills": {
+				"heading": "Vaardigheden",
+				"li": {
+					"agile": "<b>Agile, Scrum, SAFe</b> worked in professional Agile teams",
+					"c": "<b>C, C++</b> Basic knowledge",
+					"cicd": "<b>Gitlab CI/CD, Jenkins, Github workflows</b> Setup and further development of pipelines",
+					"csharp": "<b>C#, .NET Core, Umbraco</b> Developed enterprise applications",
+					"docker": "<b>Docker, Docker-compose, Docker Swarm</b> Dockerized applications and hosted them in swarm or compose stacks",
+					"elk": "<b>ELK</b> Basic understanding how ELK works and creating dashboards in Kibana",
+					"java": "<b>Java, Spring Boot</b> Developed enterprise applications",
+					"javascript": "<b>Javascript, TypeScript, Angular, Stencil, jQuery</b> Collaborated with colleagues and some hobby projects",
+					"php": "<b>PHP, Laravel, Joomla!</b> Developed enterprise applications",
+					"ruby": "<b>Ruby, Rails</b> Developed enterprise applications",
+					"scripting": "<b>Python, Bash, Go</b> Used for scripting",
+					"sql": "<b>MySQL, MSSQL</b> Used in enterprise applications",
+					"uml": "<b>UML</b> Able to create and read UML models"
+				}
+			}
+		},
+		"header": {
+			"contact": {
+				"email": {
+					"href": "mailto:contact@jor.dev",
+					"text": "contact@jor.dev"
+				},
+				"github": {
+					"href": "https://github.com/jorsanders",
+					"print": "Github.com/JorSanders",
+					"text": "Github"
+				},
+				"linkedin": {
+					"href": "https://www.linkedin.com/in/jor-sanders/",
+					"print": "LinkedIn.com/in/jor-sanders",
+					"text": "LinkedIn"
+				},
+				"location": {
+					"text": "Amsterdam"
+				},
+				"phone": {
+					"print": "06-22725596",
+					"text": "06-xxxxxxxx"
+				},
+				"website": {
+					"href": "https://jor.dev",
+					"text": "jor.dev"
+				}
+			},
+			"function": "Back-end Web Developer"
+		}
+	}
+}
