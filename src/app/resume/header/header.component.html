@@ -1,53 +1,45 @@
 <div id="header">
     <div id="header-txt">
         <h1>Jor Sanders</h1>
-        <h2 class="subheading primary-color">Back-end Web Developer</h2>
+        <h2 class="subheading primary-color" [innerHTML]="'resume.header.function' | translate"></h2>
         <section id="contact-info">
             <div class="contact-item">
                 <img class="icon" src="assets/mail.svg" alt="" />
-                <a href="mailto:contact@jor.dev" target="_blank" rel="noopener noreferrer">contact@jor.dev</a>
+                <a target="_blank" rel="noopener noreferrer" [href]="'resume.header.contact.email.href' | translate"
+                    [innerHTML]="'resume.header.contact.email.text' | translate"></a>
             </div>
 
             <div class="contact-item ">
                 <img class="icon" src="assets/phone.svg" alt="" />
-                <span class="print-hidden">+31-6-xxxxxxxx
-                    <!-- Masked my phone number here to make bots not scan my phone number too easily. If you found my phone number here or print layout, you deserve it-->
-                </span>
-                <span class="print-only">
-                    +31-6-22725596
-                </span>
+                <span class="print-hidden" [innerHTML]="'resume.header.contact.phone.text' | translate"></span>
+                <span class="print-only" [innerHTML]="'resume.header.contact.phone.print' | translate"></span>
             </div>
 
             <div class="contact-item">
                 <img class="icon" id="location" src="assets/location.svg" alt="" />
-                Amsterdam
+                <span [innerHTML]="'resume.header.contact.location.text' | translate"></span>
             </div>
 
             <div class="contact-item">
                 <img class="icon" src="assets/web.svg" alt="" />
-                <a href="https://jor.dev">jor.dev</a>
+                <a target="_blank" rel="noopener noreferrer" [href]="'resume.header.contact.website.href' | translate"
+                    [innerHTML]="'resume.header.contact.website.text' | translate"></a>
             </div>
 
             <div class="contact-item">
                 <img class="icon" src="assets/linkedin.svg" alt="" />
-                <span class="print-hidden">
-                    <a href="https://www.linkedin.com/in/jor-sanders/" target="_blank"
-                        rel="noopener noreferrer">LinkedIn</a>
-                </span>
-                <span class="print-only">
-                    LinkedIn.com/in/jor-sanders
-                </span>
+                <a class="print-hidden" target="_blank" rel="noopener noreferrer"
+                    [href]="'resume.header.contact.linkedin.href' | translate"
+                    [innerHTML]="'resume.header.contact.linkedin.text' | translate"></a>
+                <span class="print-only" [innerHTML]="'resume.header.contact.linkedin.print' | translate"></span>
             </div>
 
             <div class="contact-item">
                 <img class="icon" src="assets/github.svg" alt="" />
-                <span class="print-hidden">
-                    <a href="https://github.com/jorsanders" target="_blank" rel="noopener noreferrer">Github</a>
-                </span>
-
-                <span class="print-only">
-                    Github.com/JorSanders
-                </span>
+                <a class="print-hidden" target="_blank" rel="noopener noreferrer"
+                    [href]="'resume.header.contact.github.href' | translate"
+                    [innerHTML]="'resume.header.contact.github.text' | translate"></a>
+                <span class="print-only" [innerHTML]="'resume.header.contact.github.print' | translate"></span>
             </div>
         </section>
     </div>
