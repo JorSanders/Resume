@@ -56,7 +56,7 @@
 					"cicd": "<b>Gitlab CI/CD, Jenkins, Github workflows:</b> opzetten en doorontwikkeling van pipelines",
 					"csharp": "<b>C#, .NET Core, Umbraco:</b> enterprise applicaties ontwikkeld",
 					"docker": "<b>Docker, Docker-compose, Docker Swarm:</b> dockerized applications and hosted them in swarm or compose stacks",
-					"elk": "<b>ELK:</b> basiskennis van ELK en opzetten van dashboard in Kibana",
+					"elk": "<b>ELK:</b> basiskennis van ELK en opzetten van dashboards in Kibana",
 					"java": "<b>Java, Spring Boot:</b> enterprise applicaties ontwikkeld",
 					"javascript": "<b>Javascript, TypeScript, Angular, Stencil, jQuery:</b> samengewerkt met collegas en eigen hobby projecten",
 					"php": "<b>PHP, Laravel, Joomla!:</b> enterprise applicaties ontwikkeld",
