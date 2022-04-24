@@ -5,7 +5,7 @@
 				"heading": "Opleiding",
 				"windesheim": {
 					"heading": "<b>HBO-ICT | Windesheim Flevoland</b> (8/2015 - 6/2019).",
-					"text": "Tijdens het eerste jaar van de bachelor hebben we een basis set van IT skills geleerd. Vanaf het tweede jaar konden we die kennis in de praktijk toepassen in stages. In totaal heb ik <b class=\"primary-color\">5 stages</b> gedaan van elk een half jaar. Dit heeft mij veel ervaring gegeven in het werken met verschillende technologien, bedrijven en mensen. Ik heb er voor gekozen om mijn minor in het buitenland te doen, bij <span lang='en-US'>Wenzhou University</span> in China."
+					"text": "Tijdens het eerste jaar van deze bachelor hebben we een basis van IT skills geleerd. Vanaf het tweede jaar konden we die kennis in de praktijk toepassen in stages. In totaal heb ik <b class=\"primary-color\">5 stages</b> gedaan van elk een half jaar. Dit heeft mij veel ervaring gegeven in het werken met verschillende technologieën, bedrijven en mensen. Ik heb er voor gekozen om mijn minor in het buitenland te doen, bij <span lang='en-US'>Wenzhou University</span> in China."
 				}
 			},
 			"experience": {
@@ -13,57 +13,57 @@
 				"li": {
 					"capgemini": {
 						"heading": "<b>Back-end ontwikkelaar | Capgemini</b> (11/2019 - 5/2022).",
-						"text": "Gewerkt aan <b class=\"primary-color\">DigiD</b> voor <b>Logius</b>, een van de klanten van Capgemini. Hier heb ik aan een verscheidenheid aan items gewerkt zoals containerisatie, opsplitsen van de monolieth in microservices, en verbinden met to eIDAS (Europese electronische identificatie). Het gene waar ik het meest trost op ben is dat ik unofficieel het eerste aanspreek punt ben geworden voor de <span lang='en-US'>Ops</span> teams wanneer er ondersteuning of samerwerking nodig was van de ontwikkel teams."
+						"text": "Gewerkt aan <b class=\"primary-color\">DigiD</b> voor <b>Logius</b>, een van de klanten van Capgemini. Hier heb ik aan een verscheidenheid aan items gewerkt zoals containerisatie, opsplitsen van de monoliet in microservices, en verbinden met to eIDAS (Europese elektronische identificatie). Het gene waar ik het meest trots op ben is dat ik onofficieel het eerste aanspreekpunt ben geworden voor de <span lang='en-US'>Ops</span> teams wanneer er ondersteuning of samenwerking nodig was van de ontwikkel teams."
 					},
 					"cinnovate": {
-						"heading": "<b>Back-end internship | Cinnovate</b> (9/2017 - 1/2018).",
-						"text": "In a team of interns we built a C# Library for <a href=\"https://www.pozyx.io/\" target=\"_blank\" rel=\"noopener noreferrer\">Pozyx</a>. Pozyx is hardware used for indoor location tracking. Cinnovate used this indoor location tracking their projects, mainly a self-driving-wheelchair."
+						"heading": "<b>Back-end stage | Cinnovate</b> (9/2017 - 1/2018).",
+						"text": "In een team samen met andere stagiairs hebben we een C# Library ontwikkeld voor <a href=\"https://www.pozyx.io/\" target=\"_blank\" rel=\"noopener noreferrer\">Pozyx</a>. Pozyx is hardware die wordt gebruikt om binnenhuis locatiebepaling te doen. Cinnovate gebruikt deze binnenhuis locatiebepaling in hun projecten, voornamelijk een zelfrijdende rolstoel."
 					},
 					"pwt": {
 						"heading": "<b>Back-end ontwikkelaar | Perfect Web Team</b> (2/2017 - 8/2019).",
-						"text": "During my studies I worked as a part-time web and back-end developer. The work mostly consisted of making custom Joomla! components using OOP PHP, Git and MySQL. As my graduation-internship I set up a CI/CD environment for PWT."
+						"text": "Tijdens mij studie heb ik gewerkt als part-time web,- en back-end ontwikkelaar. Voornamelijk heb ik hier maatwerk Joomla! componenten gemaakt met OOP PHP, jQuery, Git and MySQL. Als afstudeer stage heb ik een CI/CD omgeving opgezet voor Perfect Web Team."
 					},
 					"the_valley": {
-						"heading": "<b>Back-end internship | The Valley</b> (9/2018 - 1/2019).",
-						"text": "During this internship I worked in a Scrum team, together we redesigned and rebuilt the website <a href=\"https://www.fcutrecht.nl/\" target=\"_blank\"rel=\"noopener noreferrer\">fcutrecht.nl</a>."
+						"heading": "<b>Back-end stage | The Valley</b> (9/2018 - 1/2019).",
+						"text": "In deze stage heb ik als onderdeel van een Scrum team gewerkt, samen hebben wij het herdesign en de herbouw gedaan van de website <a href=\"https://www.fcutrecht.nl/\" target=\"_blank\"rel=\"noopener noreferrer\">fcutrecht.nl</a>."
 					}
 				}
 			},
 			"interests": {
 				"content": {
-					"free_time": "After a day of work I enjoy hanging out on Discord and playing team-based games like Overwatch, Apex Legends or League of Legends. During weekends I enjoy having board game nights or going out for a drink with friends.",
-					"learning": "I am constantly looking to <b class=\"primary-color\">learn new things</b>. During my free time I often browse Reddit, Youtube or listen to podcasts to learn more about things like Kubernetes, Front-end development and pentesting."
+					"free_time": "Na een werkdag kan je mij vaak in Discord vinden hier geniet ik ervan om team-based games te spelen zoals Overwatch, Apex Legends or League of Legends. Tijdens het weekend hou ik van bordspelavonden of samen met vrienden wat gaan drinken.",
+					"learning": "Ik ben altijd bezig met <b class=\"primary-color\">nieuwe dingen leren</b>. In mijn vrije tijd browse ik vaak Reddit, Youtube or luister ik naar podcasts om meer te leren over dingens zoals Kubernetes, Front-end ontwikkelen and pentesting."
 				},
 				"heading": "Interesses"
 			},
 			"languages": {
 				"heading": "Talen",
 				"li": {
-					"chinese": "<b>Chinese (<span lang=\"zh-Hans\">中文</span>):</b> basic conversations",
-					"dutch": "<b>Dutch:</b> native",
-					"english": "<b>English:</b> fluent"
+					"chinese": "<b>Chinese (<span lang=\"zh-Hans\">中文</span>):</b> basis gesprekken",
+					"dutch": "<b>Dutch:</b> moedertaal",
+					"english": "<b>English:</b> vloeiend"
 				}
 			},
 			"personal_summary": {
 				"heading": "Profiel",
-				"text": "I am a 25 year old software developer. Besides my main specialization in back-end web development I enjoy working on a wide range of subjects. I take pride in being able to explain complex technical concepts in layman's terms. Because of this I have often been asked by colleagues to collaborate with them on a variety of items (e.g. front-end, CI/CD automation, database administration, Linux server management and ncident response). In this way I see myself as a real <b class=\"primary-color\">team player</b>, who is always ready to help others out."
+				"text": "Ik ben een 25 jarige software ontwikkelaar. Naast dat ik voornamelijk gespeciliseerd ben in back-end web development, werk ik graag een breed scala aan onderwerpen. Ik ben er trots op dat ik complexe technische concepten in jip-en-janneketaal kan uitleggen. Hierdoor wordt ik vaak door collega's gevraagd om samen te werken aan een verscheidenheid van items (bijv. front-end, CI/CD, databases, Linux server beheer, en incident response). Op deze manier zie ik mijzelf als een echte <b class=\"primary-color\">team speler</b>, die altijd bereid is om andere te ondersteunen."
 			},
 			"skills": {
 				"heading": "Vaardigheden",
 				"li": {
-					"agile": "<b>Agile, Scrum, SAFe</b> worked in professional Agile teams",
-					"c": "<b>C, C++</b> Basic knowledge",
-					"cicd": "<b>Gitlab CI/CD, Jenkins, Github workflows</b> Setup and further development of pipelines",
-					"csharp": "<b>C#, .NET Core, Umbraco</b> Developed enterprise applications",
-					"docker": "<b>Docker, Docker-compose, Docker Swarm</b> Dockerized applications and hosted them in swarm or compose stacks",
-					"elk": "<b>ELK</b> Basic understanding how ELK works and creating dashboards in Kibana",
-					"java": "<b>Java, Spring Boot</b> Developed enterprise applications",
-					"javascript": "<b>Javascript, TypeScript, Angular, Stencil, jQuery</b> Collaborated with colleagues and some hobby projects",
-					"php": "<b>PHP, Laravel, Joomla!</b> Developed enterprise applications",
-					"ruby": "<b>Ruby, Rails</b> Developed enterprise applications",
-					"scripting": "<b>Python, Bash, Go</b> Used for scripting",
-					"sql": "<b>MySQL, MSSQL</b> Used in enterprise applications",
-					"uml": "<b>UML</b> Able to create and read UML models"
+					"agile": "<b>Agile, Scrum, SAFe:</b> gewerkt in professionele Agile teams",
+					"c": "<b>C, C++:</b> basis kennis",
+					"cicd": "<b>Gitlab CI/CD, Jenkins, Github workflows:</b> opzetten en doorontwikkeling van pipelines",
+					"csharp": "<b>C#, .NET Core, Umbraco:</b> enterprise applicaties ontwikkeld",
+					"docker": "<b>Docker, Docker-compose, Docker Swarm:</b> dockerized applications and hosted them in swarm or compose stacks",
+					"elk": "<b>ELK:</b> basiskennis van ELK en opzetten van dashboard in Kibana",
+					"java": "<b>Java, Spring Boot:</b> enterprise applicaties ontwikkeld",
+					"javascript": "<b>Javascript, TypeScript, Angular, Stencil, jQuery:</b> samengewerkt met collegas en eigen hobby projecten",
+					"php": "<b>PHP, Laravel, Joomla!:</b> enterprise applicaties ontwikkeld",
+					"ruby": "<b>Ruby, Rails:</b> enterprise applicaties ontwikkeld",
+					"scripting": "<b>Python, Bash, Go:</b> bebruikt voor scripten",
+					"sql": "<b>MySQL, MSSQL:</b> gebruikt in enterprise omgevingen",
+					"uml": "<b>UML:</b> maken en lezen van UML modellen"
 				}
 			}
 		},
@@ -96,6 +96,10 @@
 				}
 			},
 			"function": "Back-end Web Developer"
+		},
+		"meta": {
+			"description": "Ik ben een 25 jarige software ontwikkelaar. Naast dat ik voornamelijk gespeciliseerd ben in back-end web development, werk ik graag een breed scala aan onderwerpen.",
+			"title": "Jor Sanders - CV"
 		}
 	}
 }
