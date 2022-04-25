@@ -46,11 +46,7 @@
 			},
 			"personal_summary": {
 				"heading": "Profiel",
-<<<<<<< HEAD
-				"text": "Ik ben een 25 jarige software ontwikkelaar. Naast dat ik voornamelijk gespeciliseerd ben in back-end web development, werk ik graag een breed scala aan onderwerpen. Ik ben er trots op dat ik complexe technische concepten in jip-en-janneketaal kan uitleggen. Hierdoor wordt ik vaak door collega's gevraagd om samen te werken aan een verscheidenheid van items (bijv. front-end, CI/CD, databases, Linux server beheer, en incident response). Op deze manier zie ik mijzelf als een echte <b class=\"primary-color\">team speler</b>, die altijd bereid is om andere te ondersteunen."
-=======
 				"text": "Ik ben een 25 jarige software ontwikkelaar. Naast dat ik voornamelijk gespecialiseerd ben in back-end web development, werk ik graag een breed scala aan onderwerpen. Ik ben er trots op dat ik complexe technische concepten in jip-en-janneketaal kan uitleggen. Hierdoor wordt ik vaak door collega's gevraagd om samen te werken aan een verscheidenheid van items (bijv. front-end, CI/CD, databases, Linux server beheer, en incident response). Op deze manier zie ik mijzelf als een echte <b class=\"primary-color\">teamspeler</b>, die altijd bereid is om anderen te ondersteunen."
->>>>>>> langugage
 			},
 			"skills": {
 				"heading": "Vaardigheden",
