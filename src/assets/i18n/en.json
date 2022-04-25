@@ -55,7 +55,7 @@
 					"c": "<b>C, C++:</b> basic knowledge",
 					"cicd": "<b>Gitlab CI/CD, Jenkins, Github workflows:</b> setup and further development of pipelines",
 					"csharp": "<b>C#, .NET Core, Umbraco:</b> developed enterprise applications",
-					"docker": "<b>Docker, Docker-compose, Docker Swarm:</b> dockerized applications and hosted them in swarm or compose stacks",
+					"docker": "<b>Docker, Docker-compose, Docker Swarm:</b> containerized applications and hosted them in swarm or compose stacks",
 					"elk": "<b>ELK:</b> basic understanding of ELK and creating dashboards in Kibana",
 					"java": "<b>Java, Spring Boot:</b> developed enterprise applications",
 					"javascript": "<b>Javascript, TypeScript, Angular, Stencil, jQuery:</b> collaborated with colleagues and some hobby projects",

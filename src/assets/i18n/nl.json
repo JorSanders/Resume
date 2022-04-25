@@ -13,7 +13,7 @@
 				"li": {
 					"capgemini": {
 						"heading": "<b>Back-end ontwikkelaar | Capgemini</b> (11/2019 - 5/2022).",
-						"text": "Gewerkt aan <b class=\"primary-color\">DigiD</b> voor <b>Logius</b>, een van de klanten van Capgemini. Hier heb ik aan een verscheidenheid aan items gewerkt zoals containerisatie, opsplitsen van de monoliet in microservices, en verbinden met to eIDAS (Europese elektronische identificatie). Het gene waar ik het meest trots op ben is dat ik onofficieel het eerste aanspreekpunt ben geworden voor de <span lang='en-US'>Ops</span> teams wanneer er ondersteuning of samenwerking nodig was van de ontwikkel teams."
+						"text": "Gewerkt aan <b class=\"primary-color\">DigiD</b> voor <b>Logius</b>, een van de klanten van Capgemini. Hier heb ik aan een verscheidenheid aan items gewerkt zoals containerisatie, opsplitsen van de monoliet in microservices, en verbinden met to eIDAS (Europese elektronische identificatie). Hetgeen waar ik het meest trots op ben is dat ik onofficieel het eerste aanspreekpunt ben geworden wanneer is ondersteuning nodig is van de ontwikkel teams."
 					},
 					"cinnovate": {
 						"heading": "<b>Back-end stage | Cinnovate</b> (9/2017 - 1/2018).",
@@ -21,7 +21,7 @@
 					},
 					"pwt": {
 						"heading": "<b>Back-end ontwikkelaar | Perfect Web Team</b> (2/2017 - 8/2019).",
-						"text": "Tijdens mij studie heb ik gewerkt als part-time web,- en back-end ontwikkelaar. Voornamelijk heb ik hier maatwerk Joomla! componenten gemaakt met OOP PHP, jQuery, Git and MySQL. Als afstudeer stage heb ik een CI/CD omgeving opgezet voor Perfect Web Team."
+						"text": "Tijdens mij studie heb ik gewerkt als part-time web,- en back-end ontwikkelaar. Voornamelijk heb ik hier maatwerk Joomla! componenten gemaakt met OOP PHP, jQuery, Git and MySQL. Als afstudeerstage heb ik een CI/CD omgeving opgezet voor Perfect Web Team."
 					},
 					"the_valley": {
 						"heading": "<b>Back-end stage | The Valley</b> (9/2018 - 1/2019).",
@@ -31,8 +31,8 @@
 			},
 			"interests": {
 				"content": {
-					"free_time": "Na een werkdag kan je mij vaak in Discord vinden hier geniet ik ervan om team-based games te spelen zoals Overwatch, Apex Legends or League of Legends. Tijdens het weekend hou ik van bordspelavonden of samen met vrienden wat gaan drinken.",
-					"learning": "Ik ben altijd bezig met <b class=\"primary-color\">nieuwe dingen leren</b>. In mijn vrije tijd browse ik vaak Reddit, Youtube or luister ik naar podcasts om meer te leren over dingens zoals Kubernetes, Front-end ontwikkelen and pentesting."
+					"free_time": "Na een werkdag kan je mij vaak in Discord vinden, hier geniet ik ervan om team-based games te spelen zoals Overwatch, Apex Legends of League of Legends. Tijdens het weekend hou ik er van om met vrienden bordspellen te spelen of samen wat te gaan drinken.",
+					"learning": "Ik ben altijd bezig met <b class=\"primary-color\">nieuwe dingen leren</b>. In mijn vrije tijd browse ik vaak Reddit, Youtube of luister ik naar podcasts om meer te leren over dingen zoals Kubernetes, Front-end ontwikkelen en pentesting."
 				},
 				"heading": "Interesses"
 			},
@@ -46,7 +46,7 @@
 			},
 			"personal_summary": {
 				"heading": "Profiel",
-				"text": "Ik ben een 25 jarige software ontwikkelaar. Naast dat ik voornamelijk gespeciliseerd ben in back-end web development, werk ik graag een breed scala aan onderwerpen. Ik ben er trots op dat ik complexe technische concepten in jip-en-janneketaal kan uitleggen. Hierdoor wordt ik vaak door collega's gevraagd om samen te werken aan een verscheidenheid van items (bijv. front-end, CI/CD, databases, Linux server beheer, en incident response). Op deze manier zie ik mijzelf als een echte <b class=\"primary-color\">team speler</b>, die altijd bereid is om andere te ondersteunen."
+				"text": "Ik ben een 25 jarige software ontwikkelaar. Naast dat ik voornamelijk gespecialiseerd ben in back-end web development, werk ik graag een breed scala aan onderwerpen. Ik ben er trots op dat ik complexe technische concepten in jip-en-janneketaal kan uitleggen. Hierdoor wordt ik vaak door collega's gevraagd om samen te werken aan een verscheidenheid van items (bijv. front-end, CI/CD, databases, Linux server beheer, en incident response). Op deze manier zie ik mijzelf als een echte <b class=\"primary-color\">teamspeler</b>, die altijd bereid is om anderen te ondersteunen."
 			},
 			"skills": {
 				"heading": "Vaardigheden",
@@ -55,13 +55,13 @@
 					"c": "<b>C, C++:</b> basis kennis",
 					"cicd": "<b>Gitlab CI/CD, Jenkins, Github workflows:</b> opzetten en doorontwikkeling van pipelines",
 					"csharp": "<b>C#, .NET Core, Umbraco:</b> enterprise applicaties ontwikkeld",
-					"docker": "<b>Docker, Docker-compose, Docker Swarm:</b> dockerized applications and hosted them in swarm or compose stacks",
+					"docker": "<b>Docker, Docker-compose, Docker Swarm:</b> containerized applicaties en gehost in swarm of compose stacks",
 					"elk": "<b>ELK:</b> basiskennis van ELK en opzetten van dashboard in Kibana",
 					"java": "<b>Java, Spring Boot:</b> enterprise applicaties ontwikkeld",
 					"javascript": "<b>Javascript, TypeScript, Angular, Stencil, jQuery:</b> samengewerkt met collegas en eigen hobby projecten",
 					"php": "<b>PHP, Laravel, Joomla!:</b> enterprise applicaties ontwikkeld",
 					"ruby": "<b>Ruby, Rails:</b> enterprise applicaties ontwikkeld",
-					"scripting": "<b>Python, Bash, Go:</b> bebruikt voor scripten",
+					"scripting": "<b>Python, Bash, Go:</b> gebruikt voor scripten",
 					"sql": "<b>MySQL, MSSQL:</b> gebruikt in enterprise omgevingen",
 					"uml": "<b>UML:</b> maken en lezen van UML modellen"
 				}
@@ -98,7 +98,7 @@
 			"function": "Back-end Web Developer"
 		},
 		"meta": {
-			"description": "Ik ben een 25 jarige software ontwikkelaar. Naast dat ik voornamelijk gespeciliseerd ben in back-end web development, werk ik graag een breed scala aan onderwerpen.",
+			"description": "Ik ben een 25 jarige software ontwikkelaar. Naast dat ik voornamelijk gespecialiseerd ben in back-end web development, werk ik graag een breed scala aan onderwerpen.",
 			"title": "Jor Sanders - CV"
 		}
 	}
