@@ -12,7 +12,7 @@ export class RootComponent implements OnInit {
   private isDutch: boolean;
 
   constructor(private translate: TranslateService, private titleService: Title, private meta: Meta) {
-    translate.setDefaultLang('nl');
+    translate.setDefaultLang('en');
     this.browserLanguage = navigator.languages
     this.isDutch = this.browserLanguage.find(l => l.split('-', 1)[0].toLowerCase() === "nl") !== undefined;
     if (!this.isDutch) {
