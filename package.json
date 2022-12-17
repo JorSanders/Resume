@@ -11,7 +11,7 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "~13.3.0",
+    "@angular/animations": "file:latest@angular/common@latest@angular/compiler@latest@angular/core@latest@angular/forms@latest@angular/platform-browser@latest@angular/platform-browser-dynamic@latest@angular/router@latest@bartholomej/ngx-translate-extract@latest@biesbjerg/ngx-translate-extract-marker@latest@ngx-translate/core@latest@ngx-translate/http-loader@latestrxjs@latesttslib@latestzone.js@latest",
     "@angular/common": "~13.3.0",
     "@angular/compiler": "~13.3.0",
     "@angular/core": "~13.3.0",
