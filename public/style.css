@@ -1,3 +1,86 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: block;
+}
+
+* {
+  padding: unset;
+  margin: unset;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: "";
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: "Montserrat";
+  color-scheme: light;
+  color: rgb(20, 20, 20);
+  background-color: #f3f3f3;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  min-height: 100%;
+  display: grid;
+  place-items: start center;
+  padding: 2rem 1rem;
+}
+
+@media print {
+  @page {
+    size: A4;
+    margin: 0;
+  }
+
+  body {
+    background: none;
+    padding: 0;
+    display: block;
+    min-height: auto;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
 .main {
   width: 210mm;
   min-height: 297mm;
@@ -43,6 +126,7 @@
   line-height: 1.05;
   text-align: center;
   font-weight: 700;
+  margin: 0;
 }
 
 .title {
@@ -54,6 +138,7 @@
   padding-bottom: 1.125rem;
   border-bottom: 1px solid rgba(0, 0, 0, 0.12);
   width: 100%;
+  margin: 0;
 }
 
 .sidebarBlock {
@@ -65,18 +150,20 @@
   letter-spacing: 0.28em;
   text-transform: uppercase;
   font-weight: 700;
-  margin-bottom: 0.875rem;
+  margin: 0 0 0.875rem;
 }
 
 .contactLine {
   font-size: 0.8125rem;
   line-height: 1.8;
-  margin-bottom: 0.25rem;
+  margin: 0 0 0.25rem;
 }
 
 .skillsList {
   display: grid;
   gap: 0.625rem;
+  padding-left: 1.1rem;
+  margin: 0;
 }
 
 .skillsItem {
@@ -98,7 +185,7 @@
   letter-spacing: 0.3em;
   text-transform: uppercase;
   font-weight: 700;
-  margin-bottom: 0.875rem;
+  margin: 0 0 0.875rem;
   position: relative;
 }
 
@@ -120,18 +207,21 @@
   font-size: 0.8125rem;
   line-height: 1.85;
   color: rgba(0, 0, 0, 0.78);
+  margin: 0;
 }
 
 .experienceList {
   display: grid;
   gap: 1.125rem;
+  padding-left: 1.25rem;
+  margin: 0;
 }
 
 .roleLine {
   font-weight: 600;
   color: rgba(0, 0, 0, 0.85);
   font-size: 0.8125rem;
-  margin-bottom: 0.375rem;
+  margin: 0 0 0.375rem;
 }
 
 .link {
