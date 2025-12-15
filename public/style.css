@@ -162,7 +162,6 @@ body {
 .skillsList {
   display: grid;
   gap: 0.625rem;
-  padding-left: 1.1rem;
   margin: 0;
 }
 
@@ -213,7 +212,6 @@ body {
 .experienceList {
   display: grid;
   gap: 1.125rem;
-  padding-left: 1.25rem;
   margin: 0;
 }
 
@@ -262,11 +260,6 @@ body {
   .sidebarBlock,
   .contentBlock {
     padding: 1.75rem 2rem;
-  }
-
-  .experienceList,
-  .skillsList {
-    padding-left: 0;
   }
 }
 
