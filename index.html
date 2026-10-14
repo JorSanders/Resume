@@ -1,38 +1,60 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>CV Jor Sanders</title>
+  <title>CV of Jor Sanders, web developer</title>
 
-  <meta name="description" content="CV of Jor Sanders, web developer with frontend, backend, and DevOps experience." />
+  <meta name="description" content="CV of Jor Sanders, web developer with frontend, backend and DevOps experience, currently in the frontend team at NOS." />
   <link rel="canonical" href="https://jor.dev/" />
+  <meta name="color-scheme" content="light" />
+  <meta name="theme-color" content="#f3f3f3" />
 
-  <meta property="og:title" content="CV Jor Sanders" />
-  <meta property="og:description" content="Web developer – frontend, backend, DevOps." />
   <meta property="og:type" content="profile" />
   <meta property="og:url" content="https://jor.dev/" />
-  <meta property="og:image" content="https://jor.dev/foto.webp" />
+  <meta property="og:title" content="CV of Jor Sanders, web developer" />
+  <meta property="og:description" content="CV of Jor Sanders, web developer with frontend, backend and DevOps experience, currently in the frontend team at NOS." />
+  <meta property="og:image" content="https://jor.dev/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Jor Sanders, web developer. Frontend, backend and DevOps, currently in the frontend team at NOS." />
 
-  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="CV of Jor Sanders, web developer" />
+  <meta name="twitter:description" content="CV of Jor Sanders, web developer with frontend, backend and DevOps experience, currently in the frontend team at NOS." />
 
-  <link rel="preload" href="/fonts/Montserrat-Light.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="preload" href="/fonts/Montserrat-Regular.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="preload" href="/fonts/Montserrat-SemiBold.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="preload" href="/fonts/Montserrat-Bold.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="icon" type="image/x-icon" sizes="32x32" href="/favicon.ico" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
-  <link rel="stylesheet" href="style.css" />
+  <link rel="preload" href="/brand/fonts/Montserrat-Regular.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/brand/fonts/Montserrat-SemiBold.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/brand/fonts/Montserrat-Bold.woff2" as="font" type="font/woff2" crossorigin />
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="stylesheet" href="/brand/tokens.css" />
+  <link rel="stylesheet" href="/brand/base.css" />
+  <link rel="stylesheet" href="/style.css" />
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Jor Sanders",
+      "jobTitle": "Web developer",
+      "url": "https://jor.dev/",
+      "email": "me@jor.dev",
+      "sameAs": [
+        "https://github.com/JorSanders/",
+        "https://www.linkedin.com/in/jor-sanders/"
+      ]
+    }
+  </script>
 </head>
 
 <body>
-  <main class="main">
+  <main class="main" id="main">
     <div class="left">
       <section class="sidebarTop">
         <img class="avatar" aria-hidden="true" alt="" src="/foto.webp" />
@@ -70,7 +92,7 @@
 
     <div class="right">
       <section class="contentBlock">
-        <h2 class="contentHeading">Personal Summary</h2>
+        <h2 class="contentHeading">Personal summary</h2>
         <p class="body">
           A team-oriented developer, always available to help with or answer any questions. I also love diving into
           complex problems and finding a practical solution for our team to use.
